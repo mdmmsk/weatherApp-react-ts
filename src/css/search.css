@@ -1,0 +1,22 @@
+.weather__search {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 17px;
+	height: 45px;
+	align-items: center;
+	border-bottom: 2px solid black;
+}
+
+input[type="text"] {
+	width: 70%;
+	font-size: 18px;
+	line-height: 22px;
+	color: black;
+	background-color: white;
+}
+
+input[type="submit"] {
+	width: 24px;
+	height: 23px;
+	background: url("../assets/img/search.png") no-repeat center;
+}

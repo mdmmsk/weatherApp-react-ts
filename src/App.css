@@ -1,0 +1,22 @@
+@import "./css/search.css";
+@import "./css/tabs.css";
+@import "./css/now-tab.css";
+@import "./css/details-tab.css";
+@import "./css/forecast-tab.css";
+@import "./css//favorites.css";
+
+#root {
+	width: 100%;
+	height: auto;
+	font-size: 24px;
+}
+
+.weather {
+	margin: 12px 0;
+	border: 2px solid #000;
+}
+
+.weather__content {
+	display: flex;
+	height: 390px;
+}
